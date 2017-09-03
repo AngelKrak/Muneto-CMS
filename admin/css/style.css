@@ -1,0 +1,203 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	background: #153f61;
+}
+input {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.centerFlex {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	transition: margin 400ms;
+}
+.login {
+	background: #fff;
+	width: 90%;
+	max-width: 720px;
+	border-radius: 4px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	transition: all 500ms;
+}
+.headerLogin {
+	width: 40%;
+	padding: 30px;
+	color: #fff;
+	border-radius: 4px 0 0 4px;
+	background: #fff url('http://www.estudiovillanueva.com/wp-content/uploads/2016/09/shutterstock_v1316959.mov0_.jpg') no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	transition: all 500ms;
+}
+.topHeader .icono {
+	font-size: 3.5em;
+}
+.topHeader .titulo {
+	font-weight: bold;
+	font-size: 2em;
+}
+.bottomHeader {
+	margin-top: 80px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.bottomHeader .listButton {
+	margin: 6px 0;
+	cursor: pointer;
+}
+.topHeader, .bottomHeader {
+	position: relative;
+	z-index: 10;
+}
+.fondo {
+	position: absolute;
+  top: 0;
+  left: 0;
+	background: rgba(45, 133, 191, 0.8);
+	width: 100%;
+	height: 100%;
+	border-radius: 4px 0 0 4px;
+}
+#log-cont {
+	width: 60%;
+	padding: 50px 40px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.inputGroup {
+	margin-bottom: 20px;
+}
+.labelText {
+	color: #2574a9;
+	font-family: 'Concert One', cursive;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.inputIcon {
+	display: flex;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+}
+.inputIcon .icon {
+	color: #9E9D9B;
+	font-size: 1.2em;
+	padding: 8px;
+}
+.inputIcon input {
+	width: 100%;
+	border-left: 1px solid #dedede;
+	padding: 8px 16px;
+	padding-left: 4px;
+	font-family: 'Merienda One', cursive;
+	font-weight: bold;
+	font-size: 12px;
+}
+.submit {
+	color: #fff;
+  width: 100%;
+  height: 50px;
+  font-size: 1.2em;
+  font-family: 'Concert One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+	background-color: #2574a9;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.25),
+              0 2px 0 rgba(46,109,151,1),
+              0 2px 6px rgba(0,0,0,0.45);
+  transition: all 0.3s;
+}
+.submit:active {
+	transition: none;
+  padding: 0;
+  background-color: #0f609a;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.45);
+  transform: translateY(2px);
+}
+#inicio {
+	transform: translateY(0);
+	transition: transform 1000ms;
+}
+#registro {
+	transform: translateY(-150%);
+	display: none;
+	transition: transform 1000ms ease;
+}
+.error {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.03);
+  max-width: 760px;
+  margin: 0 auto;
+}
+.error button {
+	border: 1px solid #ddd;
+	padding: 8px;
+	background: #fff;
+	outline: none;
+	color: #222;
+	cursor: pointer;
+}
+#alr {
+  width: 95%;
+  max-width: 320px;
+  position:fixed;
+  bottom: 10px;
+  left: 0;
+  transform: translate(-100%);
+  transition: all 400ms ease-in-out;
+}
+#alr .alert {
+  display: block;
+}
+
+@media all and (max-width: 765px) {
+	.login {
+		flex-direction: column;
+	}
+	.headerLogin, #log-cont {
+		width: 100%;
+	}
+	.headerLogin, .fondo {
+		border-radius: 4px 4px 0 0;
+	}
+	.bottomHeader {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.centerFlex {
+		height: 100%;
+		margin: 20px 0;
+	}
+}
