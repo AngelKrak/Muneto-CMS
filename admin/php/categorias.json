@@ -1,0 +1,28 @@
+{
+	"categorias": [
+		{
+			"id": 0,
+			"categoria": "Cosplay"
+		},
+		{
+			"id": 1,
+			"categoria": "Wallpapers"
+		},
+		{
+			"id": 2,
+			"categoria": "Imagenes"
+		},
+		{
+			"id": 3,
+			"categoria": "Youtube"
+		},
+		{
+			"id": 4,
+			"categoria": "Programación Web"
+		},
+		{
+			"id": 5,
+			"categoria": "Diseños"
+		}
+	]
+}"Prueba", );

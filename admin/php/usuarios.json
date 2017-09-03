@@ -1,0 +1,59 @@
+{
+    "usuarios": [
+        {
+            "id": 0,
+            "usuario": "AngelKrak",
+            "contrasena": "$2y$10$M3Vwzc5.GFUtjNB9rPysROFpvdwR785FqscJFl96YfLDLD0K2ddUa",
+            "rango": "Administrador",
+            "datos_personales": {
+                "email": "angel-krak@hotmail.com",
+                "imagen_perfil": "http:\/\/s33.postimg.org\/u99hgsi65\/1_AE_1.jpg",
+                "nombre": "Angel Ramirez"
+            }
+        },
+        {
+            "id": 1,
+            "usuario": "demo",
+            "contrasena": "$2y$10$AE3LnkfxKgU\/dcD6xxGmO.AI2wVbtaTsXAb3Ei8\/EmHWJNEZ0TsP2",
+            "rango": "Usuario",
+            "datos_personales": {
+                "email": "demo@hotmail.com",
+                "imagen_perfil": "http:\/\/s33.postimg.org\/yf3qnv7y7\/11082184_827586850649348_3904751569705898816_o.jpg",
+                "nombre": "Soy una Prueba"
+            }
+        },
+        {
+            "id": 2,
+            "usuario": "Dawud89",
+            "contrasena": "$2y$10$9RUub2wZUYYK0mJvjLEfcOVrCdIVEEgW9hVykH.Cs3uhifgAnjPO6",
+            "rango": "Administrador",
+            "datos_personales": {
+                "email": "dawud@hotmail.com",
+                "imagen_perfil": "http:\/\/vignette2.wikia.nocookie.net\/starcraftpedia\/images\/9\/9c\/Jim_Raynor_SC2_Perfil_1.jpg\/revision\/latest\/scale-to-width-down\/220?cb=20120430010157&path-prefix=es",
+                "nombre": "Dawud89ph"
+            }
+        },
+        {
+            "id": 3,
+            "usuario": "DawudExample",
+            "contrasena": "$2y$10$WUHEWWy\/GqlL.QDyFIt49eTEm7KfoXlc9zDHwKiPgy5ioRDTtz88u",
+            "rango": "Munetin",
+            "datos_personales": {
+                "email": "chido2-chofi@hotmail.com",
+                "imagen_perfil": "http:\/\/us.blizzard.com\/static\/_images\/games\/sc2\/wallpapers\/wall2\/wall2-1024x768.jpg",
+                "nombre": "Dawud"
+            }
+        },
+        {
+            "id": 4,
+            "usuario": "maddenamy",
+            "contrasena": "$2y$10$rwSxekFlEOUg0QW1Zz9wte6pVrjHZ.GtcxLn69BLgXnGwZQXyc7jq",
+            "rango": "Administrador",
+            "datos_personales": {
+                "email": "maddenamy@example.com",
+                "imagen_perfil": "http:\/\/img.jpg",
+                "nombre": "Freddy Gonz&aacute;lez"
+            }
+        }
+    ]
+}

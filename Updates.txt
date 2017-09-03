@@ -1,0 +1,74 @@
+﻿Detalles de cambios
+---------------------
+
+NOVEDADES MUNETO 1.0.1
+- Fix No Aceptar Codigo PHP / Fix Ignorar Comillas Dobles y Simples en el Contenido
+- Datos de Usuarios[Cambiaron de Variables a Array's]
+- Sistema/Preview para Encriptar Contraseñas Sha1
+- Fix(Pequeños Errores Arreglados)
+- Nuevo Cierre de Sesion(Metodo GET/Confirmacion)
+- Nuevo Script JS/PHP
+
+NOVEDADES MUNETO 1.0.2
+- Nuevas Sesiones Agregadas al Inicio de Sesion
+- Elegir Tema desde la Administracion
+- Version de Muneto en la Configuracion
+- Configuracion de la Pagina en la Administracion Visible(+Estilos Nuevos en Input)
+- Editar Cuenta desde la Administracion(ALPHA)
+- Index(Pagina Principal) en la Carpeta del Tema
+- Codigo Innecesario del JS Eliminado
+
+NOVEDADES MUNETO 1.0.3
+- Editar Sesiones con los Nuevos Valores Cambiados[Cuenta]
+- Corrección de Errores Menores
+
+NOVEDADES MUNETO 1.0.4
+- Comprobamos que el Post no Exista
+- Corrección de Errores Menores
+- Pagina de Error(Login) Estilos Modificados
+
+NOVEDADES MUNETO 1.0.5
+- Themes Management (Seleccionamos Theme desde la Administracion)
+
+NOVEDADES MUNETO 1.0.6
+- Condicion para Leer solo los Post con Formato .PHP
+- Ordenar Post(Se Muestran los mas Recientes Primero)
+- Seguridad en la URL de los Post(Caracteres Reemplazados por Guiones)
+- Mensaje de Error si el Post ya Existe
+
+NOVEDADES MUNETO 1.0.7
+- Corrección de Errores Menores
+- Funcion Editar y Eliminar Post(AJAX) - Modal By KaoruMishimaru
+- Base de Datos Modificada(Boton de Eliminar, Editar Post y Footer en los Posts Agregados)
+- Editor de Post Por Defecto Cambiado por TinyMCE
+- Nuevos Emoticones Agregados al Editor
+- Post's Destacados en la Home (Base de Datos Actualizada)
+- TinyMCE[Descargado Localmente(Modificado+)]
+
+NOVEDADES MUNETO 1.0.8
+- Corrección de Errores Menores
+- Meta Tags para mejorar visualizacion de los Post's(Base de Datos Actualizada)
+- Boton de Like y Compartir en los Post (Base de Datos Actualizada)
+- Tags en los Post's (Base de Datos Actualizada)
+- Categorias en los Post (Base de Datos Actualizada)
+- Elimina tus Propios Post desde la Home
+- Link hacia la Pagina Principal en el Logo
+- Buscador de Posts(Metodo GET)
+- El posts.php de Includes Maquetacion en Variable
+- Posts Eliminados Temporalmente(Se mueven a la Carpeta Trash Solo por 7 Dias)
+- Mensaje Modificado al Eliminar los Post
+- Informacion de Muneto en la Administracion(Version/Posts/Users)
+- Publica/Elimina los Post de la Papelera(trash) desde la Administracion
+- Boton de Destacar o Quitar Destacado en los Post
+
+NOVEDADES MUNETO 1.0.9
+- Corrección de Errores Menores
+- Categorias Dinamicas(Seleccion mediante Select)
+- Seccion de Categorias(Ver, Agregar, Editar, Eliminar)
+- Seccion de Usuarios(Editar, Eliminar PROXIMAMENTE)
+- Menu de las Opciones de la Administracion Modificado
+- Informacion del Creador del Post Dinamico
+- DataTables Plugin Agregado(Tabla de Usuarios y Categorias)
+- URL Amigables (HTACCESS)
+- Posts/Usuarios en JSON
+- Dropdown(Select) de Categorias en la Home

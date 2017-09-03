@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^posts/(.*)?$ php/verPost.php?url=$1
+RewriteRule ^categoria/(.*)?$ ?cat=$1
+
+Options -Indexes
